@@ -19,7 +19,7 @@ namespace WebApplication1.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-            Assert.AreEqual("Home Page", result.ViewBag.Title);
+            Assert.AreEqual("Home Page new version", result.ViewBag.Title);
 
         }
     }
